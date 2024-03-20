@@ -1,0 +1,1052 @@
+*{
+    padding:0;
+    margin:0;
+}
+.logo-rojo{
+    height:3.125rem; 
+    width: 7.8125rem; 
+    object-fit: cover;
+    padding-top: 0.625rem;
+    padding-left:0.625rem
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    padding-bottom: 0.9375rem;
+}
+
+.position{
+    position: sticky;
+    top:0rem;
+}
+
+.menu{
+    display: flex;
+    width:50vw;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family:"Oswald", sans-serif;
+}
+
+.portada{
+    background: url(../assets/img/portada.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.portada div{
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100vw;
+    height: 85vh;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    grid-row: 1/2;
+}
+
+.portada h1{
+    font-family:"Oswald", sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 4rem;
+    width: 70vw;
+}
+
+.portada h2{
+    font-family: "Oswald", sans-serif;
+    color:white;
+    text-align:center;
+    font-size: 2rem;
+}
+
+.conocenos{
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    color:white;
+    border: 0.125rem solid red;
+    font-size: 1.5rem;
+    padding: 1.5625rem 2.8125rem;
+    margin-top:1.875rem;
+}
+
+.conocenos:hover{
+    background-color: red;
+    border: 0.125rem solid white;
+}
+
+.bloque-1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bloque-1 h2{
+    color: red;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+
+
+.bloque-1 p{
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+}
+
+.foto-bloque-1{
+    width:45vw;
+}
+
+.nuestra-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    padding: 1.25rem 0;
+}
+
+.nuestra-historia p{
+    text-align: justify;
+    width: 40vw;
+}
+
+.bloque-2{
+    background-color: red;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    grid-row: 3/4;
+}
+
+.bloque-2 .sub-1{
+    font-family: "Oswald",sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    text-align: center;
+}
+
+.bloque-2 .bold-blanco{
+    font-family: "Oswald",sans-serif;
+    font-size: 1.5625rem;
+    color: white;
+    text-align: center;
+}
+
+.logros{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.625rem;
+}
+
+.sub-1{
+    padding-bottom: 0.625rem;
+    margin: 0 30px;
+}
+
+.logros p{
+    text-align: center;
+}
+
+.logros .sin-relleno-blanco{
+    font-size: 3.75rem;
+    -webkit-text-stroke: 0.0625rem;
+    -webkit-text-stroke-color: white;
+    color: red;
+    font-family: "Oswald",sans-serif;
+    text-align: center;
+}
+
+.logros div{
+    width: 15vw;
+}
+
+.bloque-3{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.estas-listo{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloque-3 h2{
+    color: red;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+
+.bloque-3 p{
+    font-family: "Oswald", sans-serif;
+    font-size:1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.foto-bloque-3{
+    width: 45vw;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo-blanco{
+    height:3.125rem;
+    width: 7.8125rem;
+    object-fit: cover;
+    padding-bottom: 0.1875rem;
+    padding-left:0.625rem
+}
+
+footer p{
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0rem 2.5rem;
+}
+
+.logos-redes{
+    height: 1.875rem;
+}
+
+.logos-redes-2{
+    height:1.25rem;
+}
+
+.redes-sociales{
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.fondo-formulario{
+    background: url(../assets/img/Torneo\ eSports.jpg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-formulario{
+    background-color: black;
+    width: 34.375rem;
+    height: 43.75rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+    padding-bottom: 1.25rem;
+    box-shadow: 0.125rem 0.125rem 0.625rem black;
+}
+
+.bloque-formulario h1{
+    font-family: "Oswald", sans-serif;
+    color: red;
+    text-align: center;
+    width: 20vw;
+    font-size: 1.875rem;
+}
+
+.bloque-formulario label{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 5rem;
+    justify-content: space-evenly;
+}
+
+input{
+    width:25rem;
+    height: 2.1875rem;
+    background-color: #D9D9D9;
+    border: 0.125rem solid red;
+    border-radius: 0.4375rem;
+}
+
+::placeholder{
+    font-family: "Lato",sans-serif;
+}
+
+.radios{
+    display: flex;
+    width: 25rem;
+    height: 2.1875rem;
+    justify-content: space-between;
+    margin-top: 0.9375rem;
+    align-items: center;
+}
+
+.radios input{
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #D9D9D9; border: 0.0625rem solid red;
+}
+
+.radios label{
+    font-size: 1.25rem;
+    font-family: "Oswald",sans-serif;
+    color: white;
+    margin-left: -2.5rem;
+}
+
+.pregunta-5{
+    width: 25rem;
+    height: 2.1875rem;
+    margin-top: 0.625rem;
+}
+
+.pregunta-5 input{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.option{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.comencemos{
+    padding:0.625rem 2.5rem;
+    font-family: "Oswald",sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    background-color: red;
+    border: 0.125rem solid white;
+    border-radius: 0.3125rem;
+    margin-top: 0.625rem;
+}
+
+.comencemos:hover{
+    background-color: black;
+    border: 0.125rem solid red;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2.5rem 0;
+    gap:2.5rem;
+}
+
+.caja-noticia{
+    background-color: #D9D9D9;
+    border-radius: 1.25rem;
+    width: 90vw;
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.noticia h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.juegos{
+    display: flex;
+    gap:1.875rem;
+    justify-content: center;
+    padding: 1.875rem 0;
+}
+
+.caja-cs{
+    width: 23.75rem;
+    height: 32.6875rem;
+    background: url(../assets/img/CSGO.jpg);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+}
+
+.caja-cs:hover{
+    filter: saturate(1);
+}
+
+.caja-cs img{
+    width: 13.75rem;
+    filter: brightness(100);
+}
+
+.caja-dota{
+    width: 23.75rem;
+    height: 32.6875rem;
+    background: url(../assets/img/Dota\ 2.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+}
+
+.caja-dota:hover{
+    filter: saturate(1);
+}
+
+.caja-dota img{
+    width: 13.75rem;
+    filter: brightness(100);
+}
+
+.caja-valorant{
+    width: 23.75rem;
+    height: 32.6875rem;
+    background: url(../assets/img/Valorant.jpg);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+}
+
+.caja-valorant:hover{
+    filter: saturate(1);
+}
+
+.caja-valorant img{
+    width: 13.75rem;
+    filter: brightness(100);
+}
+
+.counter{
+    padding: 3.125rem 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter h2{
+    font-size: 1.875rem;
+    font-family: "Oswald",sans-serif;
+    color:white;
+}
+
+.sub{
+    display: flex;
+    margin-left: 1.875rem;
+    margin-top: 2.5rem;
+}
+
+.epoje-blanco{
+    width: 12.5rem;
+}
+
+.datos-jugador{
+    width: 13.125rem;
+    height: 8.4375rem;
+    background-color: #434343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.datos-jugador .nickname{
+    font-size: 1.5rem;
+    font-family: "Oswald",sans-serif;
+    color: white;
+    margin-bottom: 1.25rem;
+}
+
+.datos-jugador p{
+    font-family: "Lato",sans-serif;
+    font-size: 1.125rem;
+    color: white;
+}
+
+.fondo-imagen-jug{
+    background-color: #D9D9D9;
+    width: 13.125rem;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.caja-counter{
+    width: 84.375rem;
+    height: 30.625rem;
+    background: url(../assets/img/Caja\ counter.jpg);
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-jugador{
+    height: 10rem;
+}
+
+.jugadores{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.dota{
+    padding: 3.125rem 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dota h2{
+    font-size: 1.875rem;
+    font-family: "Oswald",sans-serif;
+    color:white;
+}
+
+.caja-d2{
+    width: 84.375rem;
+    height: 30.625rem;
+    background: url(../assets/img/Caja\ dota.jpg);
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.valorant{
+    padding: 3.125rem 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valorant h2{
+    font-size: 1.875rem;
+    font-family: "Oswald",sans-serif;
+    color:white;
+}
+
+.caja-val{
+    width: 84.375rem;
+    height: 30.625rem;
+    background: url(../assets/img/Valorant\ fondo.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventos{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.eventos h5{
+    font-family: "Oswald",serif;
+}
+
+.eventos p{
+    font-family: "Lato",serif;
+}
+
+.eventos a{
+    background-color: red;
+    font-family: "Oswald",serif;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+.card-body{
+    border: 1px solid red;
+}
+
+.eventos h2{
+    font-family: "Oswald",sans-serif;
+    font-size: 3.125rem;
+    color: white;
+}
+
+.eventos button{
+    font-family: "Oswald",sans-serif;
+    font-size: 1.875rem;
+    padding: 0.9375rem 1.875rem;
+    background-color: black;
+    color:white;
+    border: 0.125rem solid white;
+}
+
+.caja-evento-2{
+    background: url(../assets/img/evento2.png);
+    background-size: cover;
+    background-position:0 -3.125rem;
+    border-radius: 0.875rem;
+    width: 90vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.columnas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40vh 40vh;
+    grid-gap: 10px;
+}
+
+.noticia:nth-child(1){
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.noticia img{
+    filter: saturate(0);
+}
+
+.noticia:nth-child(2){
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.noticia:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.noticia img:hover{
+    filter: saturate(1);
+}
+
+.foto-noticia{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.noticia{
+    position: relative;
+}
+
+.noticia h2{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.8rem;
+    width: 80%;
+    color: white;
+    align: center;
+    padding: 1.25rem;
+}
+
+
+@media (max-width:1024px){
+    .portada h1{
+        font-size: 3.4375rem;
+    }
+
+    .portada h2{
+        font-size: 1.875rem;
+    }
+
+    .portada a{
+        font-size: 1.25rem;
+        padding: 0.9375rem 1.875rem;
+    }
+
+    .bloque-1 h2{
+        font-size: 1.875rem;
+    }
+
+    .bloque-1 p{
+        font-size: 1rem;
+    }
+
+    .bloque-2 .sub-1{
+        font-size: 1.25rem;
+    }
+
+    .bloque-2 .sin-relleno-blanco{
+        font-size: 2.5rem;
+    }
+
+    .bloque-2 .bold-blanco{
+        font-size: 1.25rem;
+    }
+
+    .logros{
+        display: flex;
+        justify-content: center;
+        gap: 0.9375rem;
+        margin-right: 1.875rem;
+    }
+
+    .logros div{
+        width:15vw;
+    }
+
+    footer p{
+        font-size: 0.875rem;
+    }
+
+    .fondo-formulario h1{
+        width: 60%;
+    }
+}
+
+
+
+@media (max-width:768px){
+    header ul{
+        font-size: 0.875rem;
+    }
+
+    .portada{
+        height: 90vh;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    .portada h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .portada h2{
+        font-size: 1.5625rem;
+    }
+
+    .bloque-2{
+        padding: 20px 0px;
+    }
+
+    .bloque-1 h2{
+        font-size: 1.5625rem;
+        padding-bottom: 0.3125rem;
+    }
+
+    .bloque-1 p{
+        font-size: 0.75rem;
+    }
+
+    .bloque-2 .sub-1{
+        font-size: 1rem;
+    }
+
+    .bloque-2 .bold-blanco{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .bloque-2 .sin-relleno-blanco{
+        font-size: 24px;
+    }
+
+    .logros{
+        justify-content: space-evenly;
+        margin-right: 0.625rem;
+        flex-wrap: wrap;
+    }
+
+    .logros div{
+        width: 20vw;
+        padding: 0px;
+    }
+
+    .bloque-3 h2{
+        font-size: 1.5rem;
+    }
+
+    .bloque-3 p{
+        font-size: 1rem;
+    }
+
+    .bloque-3 article{
+        margin: 20px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+
+    .redes-sociales{
+        width: 60vw;
+        justify-content: center;
+    }
+
+    .bloque-formulario{
+        width: 80%;
+        height: 90vh;
+        gap: 0.625rem;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .bloque-formulario h1{
+        font-size: 5vw;
+    }
+    
+    .bloque-formulario label{
+        font-size: 2.5vw;
+    }
+
+    fieldset{
+        width: 70%;
+    }
+
+    .fondo-formulario{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pregunta-4{
+        width: 70%;
+    }
+
+    .radios{
+        width: 100%;
+    }
+
+    .pregunta-5{
+        width: 70%;
+    }
+}
+
+@media (max-width:426px){
+    
+    .portada{
+        height: 90vh;
+    }
+
+    header{
+        height: 37.5vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    .menu ul li{
+        justify-content: center;
+    }
+
+    .inicio{
+        display:flex;
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .position{
+        position: relative;
+    }
+
+    .bloque-1{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .nuestra-historia{
+        align-items: center;
+        justify-content: center;
+        height: 55%;
+        width: 80%;
+    }
+
+    .nuestra-historia p{
+        width: 100%;
+    }
+
+
+    .foto-bloque-1{
+        height: 45%;
+        object-fit: cover;
+        width: 100%;
+    }   
+
+    .logros{
+        gap: 2.5rem;
+    }
+
+    .bloque-2{
+        height: 50vh;
+    }
+
+    .bloque-3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloque-3 article{
+        height: 15vh;
+    }
+
+    .estas-listo h2{
+        font-size: 1.5rem;
+    }
+
+    .estas-listo p{
+        font-size: 16px;
+    }
+
+    .foto-bloque-3{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    footer div p{
+        font-size: 0.75rem;
+    }
+
+    .bloque-formulario{
+        height: 82vh;
+        justify-content: center;
+        padding-bottom: 5px;
+        gap: 0.625rem;
+    }
+
+    .fondo-formulario{
+        height: 90vh;
+    }
+
+    fieldset{
+        height: 10%;
+    }
+
+    .bloque-formulario label{
+        font-size: 3vw;
+    }
+
+    .comencemos{
+        font-size: 3.5vw;
+    }
+
+    .radios{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .option{
+        justify-content: flex-start;
+        align-self: flex-start;
+    }
+
+    .pregunta-4{
+        height: 12vh;
+    }
+
+}
+
+@media (max-width:321px){
+    .logros{
+        gap: 3.75rem;
+    }
+
+    .bloque-2{
+        height: 80vh;
+    }
+
+    .bloque-3 article{
+        width: 80%;
+    }
+
+    .bloque-3 h2{
+        font-size: 1.25rem;
+    }
+
+    .bloque-3 p{
+        font-size: 0.875rem;
+    }
+
+    footer div p{
+        font-size: 10px;
+    }
+    
+    .fondo-formulario{
+        height: 90vh;
+    }
+}
