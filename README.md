@@ -1,6 +1,6 @@
-#EPOJE eSPORTS
-##Creador por: Milton Moreno
-###Proyecto Coderhouse
+# EPOJE eSPORTS
+## Creado por: Milton Moreno
+### Proyecto Coderhouse
 
 >Para este proyecto se han utilizado las herramientas de:
 
