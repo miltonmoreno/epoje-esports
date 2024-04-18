@@ -1,0 +1,15 @@
+@import "./base/reset";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-unete";
+@import "./layout/main-noticias";
+@import "./layout/main-eventos";
+@import "./layout/main-equipo";
+
+@import "./layout/mediaQuerry/media1024";
+@import "./layout/mediaQuerry/media768";
+@import "./layout/mediaQuerry/media426";
+@import "./layout/mediaQuerry/media321";

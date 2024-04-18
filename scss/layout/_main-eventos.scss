@@ -1,0 +1,35 @@
+.main-eventos{
+    padding: 1.875rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.875rem;
+    h2{
+        font-family: "Oswald",sans-serif;
+        font-size: 3.125rem;
+        color: map-get($colores, color4);
+    }
+    button{
+        font-family: "Oswald",sans-serif;
+        font-size: 1.875rem;
+        padding: 0.9375rem 1.875rem;
+        background-color: map-get($colores, color2);
+        color:map-get($colores, color4);
+        border: 0.125rem solid map-get($colores, color4);
+        &:hover{
+            background-color: map-get($colores, color1);
+        }
+    }
+    .caja-evento-1{
+        background: url(../assets/img/evento1.jpg);
+        @include evento;
+    }
+    .caja-evento-2{
+        background: url(../assets/img/evento2.png);
+        @include evento;
+    }
+    .caja-evento-3{
+        background: url(../assets/img/evento3.jpg);
+        @include evento;
+    }
+}

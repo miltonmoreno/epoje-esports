@@ -1,0 +1,47 @@
+.main-equipo{
+    .juegos{
+        display: flex;
+        gap:1.875rem;
+        justify-content: center;
+        padding: 1.875rem 0;
+        .caja-cs{
+            background: url(../assets/img/CSGO.jpg);
+            @include cajas;
+        }
+        .caja-dota{
+            background: url(../assets/img/Dota\ 2.jpeg);
+            @include cajas;
+        }
+        .caja-valorant{
+            background: url(../assets/img/Valorant.jpg);
+            @include cajas;
+        }
+    }
+    .counter{
+        @include titulo;
+        background-color: map-get($colores, color1);
+        .caja-counter{
+            background: url(../assets/img/Caja\ counter.jpg);
+            @include juego;
+            @include jugadores;
+        }
+    }
+    .dota{
+        @include titulo;
+        background-color: map-get($colores, color2);
+        .caja-d2{
+            background: url(../assets/img/Caja\ dota.jpg);
+            @include juego;
+            @include jugadores;
+        }
+    }
+    .valorant{
+        @include titulo;
+        background-color: map-get($colores, color5);
+        .caja-val{
+            background: url(../assets/img/Valorant\ fondo.jpg);
+            @include juego;
+            @include jugadores;
+        }
+    }
+}

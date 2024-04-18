@@ -1,0 +1,102 @@
+@mixin cajas{
+    width: 23.75rem;
+    height: 32.6875rem;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+    &:hover{
+        filter: saturate(1);
+    }
+    img{
+        width: 13.75rem;
+        filter: brightness(100);
+    }
+}
+
+@mixin jugadores{
+    .sub{
+        display: flex;
+        margin-left: 1.875rem;
+        margin-top: 2.5rem;
+        .epoje-blanco{
+            width: 12.5rem;
+        }
+    }
+    .jugadores{
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        div{
+            .fondo-imagen-jug{
+                background-color: map-get($colores, color5);
+                width: 13.125rem;
+                height: 6.25rem;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                .foto-jugador{
+                    height: 10rem;
+                }
+            }
+            .datos-jugador{
+                width: 13.125rem;
+                height: 8.4375rem;
+                background-color: map-get($colores, color3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .nickname{
+                    font-size: 1.5rem;
+                    font-family: "Oswald",sans-serif;
+                    color: map-get($colores, color4);
+                    margin-bottom: 1.25rem;
+                }
+                p{
+                    font-family: "Lato",sans-serif;
+                    font-size: 1.125rem;
+                    color: map-get($colores, color4);
+                }
+            }
+        }
+    }
+}
+
+@mixin titulo{
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 1.875rem;
+        font-family: "Oswald",sans-serif;
+        color:map-get($colores, color4);
+    }
+}
+
+@mixin juego{
+    width: 84.375rem;
+    height: 30.625rem;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin evento{
+    background-size: cover;
+    background-position:0 -3.125rem;
+    border-radius: 0.875rem;
+    width: 90vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+}

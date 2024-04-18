@@ -1,0 +1,34 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: map-get($colores, color2);
+    padding-bottom: 0.9375rem;
+    position: sticky;
+    top:0rem;
+    z-index: 999;
+    .logo-rojo{
+        height:3.125rem; 
+        width: 7.8125rem; 
+        object-fit: cover;
+        padding-top: 0.625rem;
+        padding-left:0.625rem
+    }
+    nav{
+        .menu{
+            display: flex;
+            width:50vw;
+            list-style: none;
+            justify-content: space-evenly;
+            margin-bottom: 0px;
+            a{
+                text-decoration: none;
+                color:map-get($colores , color4);
+                font-family:"Oswald", sans-serif;
+                &:hover{
+                    color: map-get($colores, color5 );
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.main-index{ 
+    .portada{
+    background: url(../assets/img/portada.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    h1{
+        font-family:"Oswald", sans-serif;
+        color:map-get($colores, color4);
+        text-align: center;
+        font-size: 4rem;
+        width: 70vw;
+    }
+    h2{
+        font-family: "Oswald", sans-serif;
+        color:map-get($colores, color4);
+        text-align:center;
+        font-size: 2rem;
+    }
+    .conocenos{
+        background-color: map-get($colores, color2);
+        font-family: "Oswald", sans-serif;
+        color:map-get($colores, color4);
+        border: 0.125rem solid map-get($colores, color1);
+        font-size: 1.5rem;
+        padding: 1.5625rem 2.8125rem;
+        margin-top:1.875rem;
+        text-decoration: none;
+        &:hover{
+        background-color: map-get($colores, color1);
+        border: 0.125rem solid map-get($colores, color4);
+        }
+    }
+    }
+    .bloque-1{
+        display: flex;
+        justify-content: flex-start;
+        .foto-bloque-1{
+            width:45vw;
+            object-fit: cover;
+        }
+        .nuestra-historia{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 55vw;
+            padding: 1.25rem 0;
+            h2{
+                color: map-get($colores, color1 );
+                font-family: "Oswald", sans-serif;
+                font-size: 2.25rem;
+                padding-bottom: 1.25rem;
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+                width: 40vw;
+                font-family: "Lato", sans-serif;
+                font-size: 1.25rem;
+            }
+        }
+    }
+    .bloque-2{
+        background-color: map-get($colores, color1);
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.25rem;
+        .sub-1{
+            font-family: "Oswald",sans-serif;
+            font-size: 1.75rem;
+            color: map-get($colores, color4);
+            text-align: center;
+            padding-bottom: 0.625rem;
+            margin: 0 30px;
+        }
+        .logros{
+            display:flex;
+            justify-content: space-evenly;
+            padding-bottom: 0.625rem;
+            text-align: center;
+            div{
+                width: 15vw;
+                .bold-blanco{
+                    font-family: "Oswald",sans-serif;
+                    font-size: 1.5625rem;
+                    color: map-get($colores, color4);
+                    text-align: center;
+                }
+                .sin-relleno-blanco{
+                    font-size: 3.75rem;
+                    -webkit-text-stroke: 0.0625rem;
+                    -webkit-text-stroke-color: map-get($colores, color4);
+                    color: map-get($colores, color1);
+                    font-family: "Oswald",sans-serif;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .bloque-3{
+        display: flex;
+        justify-content: flex-end;
+        background-color: map-get($colores, color2);
+        .estas-listo{
+            width: 55vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+                color: map-get($colores, color1);
+                font-family: "Oswald", sans-serif;
+                font-size: 2.25rem;
+                padding-bottom: 1.25rem;
+                text-align: center;
+            }
+            p{
+                font-family: "Oswald", sans-serif;
+                font-size:1.25rem;
+                color: map-get($colores, color4);
+                text-align: center;
+            }
+        }
+        .foto-bloque-3{
+            width: 45vw;
+        }
+    }
+}

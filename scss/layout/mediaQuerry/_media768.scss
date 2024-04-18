@@ -1,0 +1,111 @@
+@media (max-width:768px){
+    header{
+        nav{
+            ul{
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+    .main-index{
+        .portada{
+            height: 90vh;
+            align-items: center;
+            background-repeat: no-repeat;
+            h1{
+                font-size: 2.5rem;
+                margin-bottom: 1.25rem;
+            }
+            h2{
+                font-size: 1.5625rem;
+            }
+        }
+        .bloque-1{
+            h2{
+                font-size: 1.5625rem;
+                padding-bottom: 0.3125rem;
+            }
+            p{
+                font-size: 0.75rem;
+            }
+        }
+        .bloque-2{
+            padding: 20px 0px;
+            .sub-1{
+                font-size: 1rem;
+            }
+            .logros{
+                justify-content: space-evenly;
+                margin-right: 0.625rem;
+                flex-wrap: wrap;
+                div{
+                    width: 20vw;
+                    padding: 0px;
+                    .bold-blanco{
+                        font-size: 1rem;
+                        text-align: center;
+                    }
+                    .sin-relleno-blanco{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .bloque-3{
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+            article{
+                margin: 20px;
+            }
+        }
+    }
+    
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        .redes-sociales{
+            width: 60vw;
+            justify-content: center;
+        }
+    }
+
+    .main-unete{
+        background-size: cover;
+        background-position: center;
+        .bloque-formulario{
+            width: 80%;
+            height: 90vh;
+            gap: 0.625rem;
+            fieldset{
+                width: 70%;
+                label{
+                    font-size: 2.5vw;
+                }
+                input{
+                    width: 100%;
+                }
+            }
+            h1{
+                font-size: 5vw;
+            }
+            .pregunta-4{
+                width: 70%;
+                .radios{
+                    width: 100%;
+                    label{
+                        font-size: 2.5vw;
+                    }
+                }
+            }
+            .pregunta-5{
+                width: 70%;
+            }
+        }
+    }
+}

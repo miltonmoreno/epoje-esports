@@ -1,0 +1,32 @@
+@media (max-width:321px){
+    .bloque-2{
+        height: 80vh;
+        .logros{
+            gap: 3.75rem;
+        }
+    }
+
+    .bloque-3{
+        article{
+            width: 80%;
+        }
+        h2{
+            font-size: 1.25rem;
+        }
+        p{
+            font-size: 0.875rem;
+        }
+    }
+
+    footer{
+        div{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    
+    .fondo-formulario{
+        height: 90vh;
+    }
+}

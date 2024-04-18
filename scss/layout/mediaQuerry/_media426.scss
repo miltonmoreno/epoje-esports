@@ -1,0 +1,142 @@
+@media (max-width:426px){
+    
+    header{
+        height: 37.5vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .menu{
+            flex-direction: column;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            gap: 1.25rem;
+            ul{
+                li{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .main-index{
+        display:flex;
+        flex-direction: column;
+        gap:0px;
+        .portada{
+            height: 90vh;
+        }
+        .bloque-1{
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 60vh;
+            .foto-bloque-1{
+                height: 45%;
+                object-fit: cover;
+                width: 100%;
+            }
+            .nuestra-historia{
+                align-items: center;
+                justify-content: center;
+                height: 55%;
+                width: 80%;
+                p{
+                    width: 100%;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .bloque-2{
+            height: 50vh;
+            .logros{
+                gap: 2.5rem;
+            }
+        }
+        .bloque-3{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .estas-listo{
+                height: 15vh;
+                h2{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .foto-bloque-3{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    footer{
+        div{
+            p{
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .main-noticias{
+        padding: 1rem 0;
+        .columnas{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 20vh 20vh 20vh 20vh;
+            grid-gap: 10px;
+            .noticia:nth-child(1) {
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+            .noticia:nth-child(2) {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .noticia:nth-child(3) {
+                grid-column: 1/2;
+                grid-row: 3/4;
+            }
+            .noticia:nth-child(4) {
+                grid-column: 1/2;
+                grid-row: 4/5;
+            }
+        }
+    }
+
+    .main-unete{
+        height: 90vh;
+        .bloque-formulario{
+            height: 82vh;
+            justify-content: center;
+            padding-bottom: 5px;
+            gap: 0.625rem;
+            fieldset{
+                height: 10%;
+                label{
+                    font-size: 3vw;
+                }
+            }
+            .comencemos{
+                font-size: 3.5vw;
+            }
+            .pregunta-4{
+                height: 12vh;
+                .radios{
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    .option{
+                        justify-content: flex-start;
+                        align-self: flex-start;
+                    }
+                }
+            }
+        }
+    }
+
+}

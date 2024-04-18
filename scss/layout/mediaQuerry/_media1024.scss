@@ -1,0 +1,49 @@
+@media (max-width:1024px){
+    .portada{
+        h1{
+            font-size: 3.4375rem;
+        }
+        h2{
+            font-size: 1.875rem;
+        }
+        a{
+            font-size: 1.25rem;
+            padding: 0.9375rem 1.875rem;
+        }
+    }
+    .bloque-1{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .bloque-2{
+        .sub-1{
+            font-size: 1.25rem;
+        }
+        .logros{
+            display: flex;
+            justify-content: center;
+            gap: 0.9375rem;
+            margin-right: 1.875rem;
+            .logros div{
+                width:15vw;
+                .sin-relleno-blanco{
+                    font-size: 2.5rem;
+                }
+                .bold-blanco{
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    footer p{
+        font-size: 0.875rem;
+    }
+
+    .fondo-formulario h1{
+        width: 60%;
+    }
+}
