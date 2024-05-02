@@ -1,0 +1,31 @@
+@media (max-width:1440px){
+    .main-equipo{
+        .counter{
+            .caja-counter{
+                justify-content: flex-start;
+                gap: 4.5vw;
+                .sub{
+                    margin-top: 3vh;
+                }
+            }
+        }
+        .dota{
+            .caja-d2{
+                justify-content: flex-start;
+                gap: 4.5vw;
+                .sub{
+                    margin-top: 3vh;
+                }
+            }
+        }
+        .valorant{
+            .caja-val{
+                justify-content: flex-start;
+                gap: 4.5vw;
+                .sub{
+                    margin-top: 3vh;
+                }
+            }
+        }
+    }
+}
