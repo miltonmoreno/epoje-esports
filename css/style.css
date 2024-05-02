@@ -510,7 +510,7 @@ footer .derechos p {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 6vh;
+  gap: 9vh;
 }
 .main-equipo .counter .caja-counter .sub {
   display: flex;
@@ -578,7 +578,7 @@ footer .derechos p {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 6vh;
+  gap: 9vh;
 }
 .main-equipo .dota .caja-d2 .sub {
   display: flex;
@@ -646,7 +646,7 @@ footer .derechos p {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 6vh;
+  gap: 9vh;
 }
 .main-equipo .valorant .caja-val .sub {
   display: flex;
