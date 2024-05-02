@@ -46,4 +46,21 @@
     .fondo-formulario h1{
         width: 60%;
     }
+
+    .main-equipo{
+        .juegos{
+            display: flex;
+            gap:1rem;
+            justify-content: center;
+            padding: 1.875rem 0;
+        }
+    }
+
+    .main-unete{
+        .bloque-formulario{
+            h1{
+                width: 60%;
+            }
+        }
+    }
 }

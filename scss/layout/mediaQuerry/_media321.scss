@@ -25,8 +25,58 @@
             }
         }
     }
-    
-    .fondo-formulario{
-        height: 90vh;
+
+    .main-unete{
+        .bloque-formulario{
+            h1{
+                width: 70%;
+            }
+            fieldset{
+                .radios{
+                    .option{
+                        label{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-equipo{
+        .counter{
+            height: 160vw;
+            .caja-counter{
+                justify-content: space-evenly
+            }
+            .jugadores{
+                .datos-jugador{
+                    h2{
+                        font-size: 6vw;
+                    }
+                    p{
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+        .dota{
+            @include tituloCelular;
+            background-color: map-get($colores, color2);
+            .caja-d2{
+                background: url(../assets/img/Caja\ dota.jpg);
+                @include juegoCelular;
+                @include jugadoresCelular;
+            }
+        }
+        .valorant{
+            @include tituloCelular;
+            background-color: map-get($colores, color5);
+            .caja-val{
+                background: url(../assets/img/Valorant\ fondo.jpg);
+                @include juegoCelular;
+                @include jugadoresCelular;
+            }
+        }
     }
 }

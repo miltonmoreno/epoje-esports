@@ -434,7 +434,7 @@ footer .derechos p {
 }
 .main-equipo .juegos .caja-cs {
   background: url(../assets/img/CSGO.jpg);
-  width: 23.75rem;
+  width: 25vw;
   height: 32.6875rem;
   background-size: cover;
   background-position: 50%;
@@ -453,7 +453,7 @@ footer .derechos p {
 }
 .main-equipo .juegos .caja-dota {
   background: url(../assets/img/Dota\ 2.jpeg);
-  width: 23.75rem;
+  width: 25vw;
   height: 32.6875rem;
   background-size: cover;
   background-position: 50%;
@@ -472,7 +472,7 @@ footer .derechos p {
 }
 .main-equipo .juegos .caja-valorant {
   background: url(../assets/img/Valorant.jpg);
-  width: 23.75rem;
+  width: 25vw;
   height: 32.6875rem;
   background-size: cover;
   background-position: 50%;
@@ -503,7 +503,7 @@ footer .derechos p {
 }
 .main-equipo .counter .caja-counter {
   background: url(../assets/img/Caja\ counter.jpg);
-  width: 84.375rem;
+  width: 90vw;
   height: 30.625rem;
   background-size: cover;
   background-position: 0;
@@ -520,23 +520,22 @@ footer .derechos p {
 }
 .main-equipo .counter .caja-counter .jugadores {
   display: flex;
-  gap: 2.5rem;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug {
   background-color: #DFDED9;
-  width: 13.125rem;
+  width: 100%;
   height: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug .foto-jugador {
-  height: 10rem;
+  height: 12.5vw;
 }
 .main-equipo .counter .caja-counter .jugadores div .datos-jugador {
-  width: 13.125rem;
+  width: 12.5vw;
   height: 8.4375rem;
   background-color: #513D3F;
   display: flex;
@@ -545,14 +544,14 @@ footer .derechos p {
   justify-content: center;
 }
 .main-equipo .counter .caja-counter .jugadores div .datos-jugador .nickname {
-  font-size: 1.5rem;
+  font-size: 1.8vw;
   font-family: "Oswald", sans-serif;
   color: white;
   margin-bottom: 1.25rem;
 }
 .main-equipo .counter .caja-counter .jugadores div .datos-jugador p {
   font-family: "Lato", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1vw;
   color: white;
 }
 .main-equipo .dota {
@@ -569,7 +568,7 @@ footer .derechos p {
 }
 .main-equipo .dota .caja-d2 {
   background: url(../assets/img/Caja\ dota.jpg);
-  width: 84.375rem;
+  width: 90vw;
   height: 30.625rem;
   background-size: cover;
   background-position: 0;
@@ -586,23 +585,22 @@ footer .derechos p {
 }
 .main-equipo .dota .caja-d2 .jugadores {
   display: flex;
-  gap: 2.5rem;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug {
   background-color: #DFDED9;
-  width: 13.125rem;
+  width: 100%;
   height: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug .foto-jugador {
-  height: 10rem;
+  height: 12.5vw;
 }
 .main-equipo .dota .caja-d2 .jugadores div .datos-jugador {
-  width: 13.125rem;
+  width: 12.5vw;
   height: 8.4375rem;
   background-color: #513D3F;
   display: flex;
@@ -611,14 +609,14 @@ footer .derechos p {
   justify-content: center;
 }
 .main-equipo .dota .caja-d2 .jugadores div .datos-jugador .nickname {
-  font-size: 1.5rem;
+  font-size: 1.8vw;
   font-family: "Oswald", sans-serif;
   color: white;
   margin-bottom: 1.25rem;
 }
 .main-equipo .dota .caja-d2 .jugadores div .datos-jugador p {
   font-family: "Lato", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1vw;
   color: white;
 }
 .main-equipo .valorant {
@@ -635,7 +633,7 @@ footer .derechos p {
 }
 .main-equipo .valorant .caja-val {
   background: url(../assets/img/Valorant\ fondo.jpg);
-  width: 84.375rem;
+  width: 90vw;
   height: 30.625rem;
   background-size: cover;
   background-position: 0;
@@ -652,23 +650,22 @@ footer .derechos p {
 }
 .main-equipo .valorant .caja-val .jugadores {
   display: flex;
-  gap: 2.5rem;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5rem;
 }
 .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug {
   background-color: #DFDED9;
-  width: 13.125rem;
+  width: 100%;
   height: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug .foto-jugador {
-  height: 10rem;
+  height: 12.5vw;
 }
 .main-equipo .valorant .caja-val .jugadores div .datos-jugador {
-  width: 13.125rem;
+  width: 12.5vw;
   height: 8.4375rem;
   background-color: #513D3F;
   display: flex;
@@ -677,14 +674,14 @@ footer .derechos p {
   justify-content: center;
 }
 .main-equipo .valorant .caja-val .jugadores div .datos-jugador .nickname {
-  font-size: 1.5rem;
+  font-size: 1.8vw;
   font-family: "Oswald", sans-serif;
   color: white;
   margin-bottom: 1.25rem;
 }
 .main-equipo .valorant .caja-val .jugadores div .datos-jugador p {
   font-family: "Lato", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1vw;
   color: white;
 }
 
@@ -727,6 +724,15 @@ footer .derechos p {
     font-size: 0.875rem;
   }
   .fondo-formulario h1 {
+    width: 60%;
+  }
+  .main-equipo .juegos {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1.875rem 0;
+  }
+  .main-unete .bloque-formulario h1 {
     width: 60%;
   }
 }
@@ -826,6 +832,324 @@ footer .derechos p {
   }
   .main-unete .bloque-formulario .pregunta-5 {
     width: 70%;
+  }
+  .main-eventos section {
+    padding: 5px;
+  }
+  .main-eventos section h2 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .main-eventos section button {
+    font-size: 1rem;
+  }
+  .main-equipo .juegos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem 0;
+  }
+  .main-equipo .juegos .caja-cs {
+    background: url(../assets/img/CSGO.jpg);
+    width: 90vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+  }
+  .main-equipo .juegos .caja-cs:hover {
+    filter: saturate(1);
+  }
+  .main-equipo .juegos .caja-cs img {
+    width: 20%;
+    filter: brightness(100);
+  }
+  .main-equipo .juegos .caja-dota {
+    background: url(../assets/img/Dota\ 2.jpeg);
+    width: 90vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+  }
+  .main-equipo .juegos .caja-dota:hover {
+    filter: saturate(1);
+  }
+  .main-equipo .juegos .caja-dota img {
+    width: 20%;
+    filter: brightness(100);
+  }
+  .main-equipo .juegos .caja-valorant {
+    background: url(../assets/img/Valorant.jpg);
+    width: 90vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(75%);
+    filter: saturate(0%);
+  }
+  .main-equipo .juegos .caja-valorant:hover {
+    filter: saturate(1);
+  }
+  .main-equipo .juegos .caja-valorant img {
+    width: 20%;
+    filter: brightness(100);
+  }
+  .main-equipo .counter {
+    padding: 3.125rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+  .main-equipo .counter h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .counter .caja-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(../assets/img/Caja\ counter.jpg);
+    width: 90vw;
+    height: 30.625rem;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .main-equipo .counter .caja-counter .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 30vw;
+  }
+  .main-equipo .counter .caja-counter .sub .epoje-blanco {
+    width: 20vw;
+  }
+  .main-equipo .counter .caja-counter .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .counter .caja-counter .jugadores div {
+    display: flex;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 12.5vw;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador {
+    width: 25vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador .nickname {
+    font-size: 2vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+  }
+  .main-equipo .dota {
+    padding: 3.125rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .main-equipo .dota h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .dota .caja-d2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(../assets/img/Caja\ dota.jpg);
+    width: 90vw;
+    height: 30.625rem;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .main-equipo .dota .caja-d2 .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 30vw;
+  }
+  .main-equipo .dota .caja-d2 .sub .epoje-blanco {
+    width: 20vw;
+  }
+  .main-equipo .dota .caja-d2 .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div {
+    display: flex;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 12.5vw;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador {
+    width: 25vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador .nickname {
+    font-size: 2vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+  }
+  .main-equipo .valorant {
+    padding: 3.125rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDED9;
+  }
+  .main-equipo .valorant h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .valorant .caja-val {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(../assets/img/Valorant\ fondo.jpg);
+    width: 90vw;
+    height: 30.625rem;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .main-equipo .valorant .caja-val .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 30vw;
+  }
+  .main-equipo .valorant .caja-val .sub .epoje-blanco {
+    width: 20vw;
+  }
+  .main-equipo .valorant .caja-val .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .valorant .caja-val .jugadores div {
+    display: flex;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 12.5vw;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador {
+    width: 25vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador .nickname {
+    font-size: 2vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5vw;
+    color: white;
   }
 }
 @media (max-width: 426px) {
@@ -957,6 +1281,258 @@ footer .derechos p {
     justify-content: flex-start;
     align-self: flex-start;
   }
+  .main-eventos h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-equipo .counter {
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+  .main-equipo .counter img {
+    margin-top: 1vw;
+  }
+  .main-equipo .counter h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .counter .caja-counter {
+    width: 90vw;
+    height: 150vw;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .main-equipo .counter .caja-counter .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .main-equipo .counter .caja-counter .sub h2 {
+    font-size: 5vw;
+  }
+  .main-equipo .counter .caja-counter .sub .epoje-blanco {
+    height: 100%;
+  }
+  .main-equipo .counter .caja-counter .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .counter .caja-counter .jugadores div {
+    display: flex;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 22vw;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador {
+    width: 45vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador .nickname {
+    font-size: 4vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .counter .caja-counter .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 2vw;
+    color: white;
+  }
+  .main-equipo .dota {
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .main-equipo .dota img {
+    margin-top: 1vw;
+  }
+  .main-equipo .dota h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .dota .caja-d2 {
+    background: url(../assets/img/Caja\ dota.jpg);
+    width: 90vw;
+    height: 150vw;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .main-equipo .dota .caja-d2 .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .main-equipo .dota .caja-d2 .sub h2 {
+    font-size: 5vw;
+  }
+  .main-equipo .dota .caja-d2 .sub .epoje-blanco {
+    height: 100%;
+  }
+  .main-equipo .dota .caja-d2 .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div {
+    display: flex;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 22vw;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador {
+    width: 45vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador .nickname {
+    font-size: 4vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 2vw;
+    color: white;
+  }
+  .main-equipo .valorant {
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDED9;
+  }
+  .main-equipo .valorant img {
+    margin-top: 1vw;
+  }
+  .main-equipo .valorant h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .valorant .caja-val {
+    background: url(../assets/img/Valorant\ fondo.jpg);
+    width: 90vw;
+    height: 150vw;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .main-equipo .valorant .caja-val .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .main-equipo .valorant .caja-val .sub h2 {
+    font-size: 5vw;
+  }
+  .main-equipo .valorant .caja-val .sub .epoje-blanco {
+    height: 100%;
+  }
+  .main-equipo .valorant .caja-val .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .valorant .caja-val .jugadores div {
+    display: flex;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 22vw;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador {
+    width: 45vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador .nickname {
+    font-size: 4vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 2vw;
+    color: white;
+  }
 }
 @media (max-width: 321px) {
   .bloque-2 {
@@ -977,8 +1553,189 @@ footer .derechos p {
   footer div p {
     font-size: 10px;
   }
-  .fondo-formulario {
-    height: 90vh;
+  .main-unete .bloque-formulario h1 {
+    width: 70%;
+  }
+  .main-unete .bloque-formulario fieldset .radios .option label {
+    font-size: 1rem;
+  }
+  .main-equipo .counter {
+    height: 160vw;
+  }
+  .main-equipo .counter .caja-counter {
+    justify-content: space-evenly;
+  }
+  .main-equipo .counter .jugadores .datos-jugador h2 {
+    font-size: 6vw;
+  }
+  .main-equipo .counter .jugadores .datos-jugador p {
+    font-size: 3vw;
+  }
+  .main-equipo .dota {
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .main-equipo .dota img {
+    margin-top: 1vw;
+  }
+  .main-equipo .dota h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .dota .caja-d2 {
+    background: url(../assets/img/Caja\ dota.jpg);
+    width: 90vw;
+    height: 150vw;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .main-equipo .dota .caja-d2 .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .main-equipo .dota .caja-d2 .sub h2 {
+    font-size: 5vw;
+  }
+  .main-equipo .dota .caja-d2 .sub .epoje-blanco {
+    height: 100%;
+  }
+  .main-equipo .dota .caja-d2 .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div {
+    display: flex;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 22vw;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador {
+    width: 45vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador .nickname {
+    font-size: 4vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .dota .caja-d2 .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 2vw;
+    color: white;
+  }
+  .main-equipo .valorant {
+    padding: 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDED9;
+  }
+  .main-equipo .valorant img {
+    margin-top: 1vw;
+  }
+  .main-equipo .valorant h2 {
+    font-size: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  .main-equipo .valorant .caja-val {
+    background: url(../assets/img/Valorant\ fondo.jpg);
+    width: 90vw;
+    height: 150vw;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .main-equipo .valorant .caja-val .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .main-equipo .valorant .caja-val .sub h2 {
+    font-size: 5vw;
+  }
+  .main-equipo .valorant .caja-val .sub .epoje-blanco {
+    height: 100%;
+  }
+  .main-equipo .valorant .caja-val .jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 40vw;
+    margin: 0;
+  }
+  .main-equipo .valorant .caja-val .jugadores div {
+    display: flex;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug {
+    background-color: #DFDED9;
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .fondo-imagen-jug .foto-jugador {
+    height: 22vw;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador {
+    width: 45vw;
+    height: 5rem;
+    background-color: #513D3F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador .nickname {
+    font-size: 4vw;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+  }
+  .main-equipo .valorant .caja-val .jugadores div .datos-jugador p {
+    font-family: "Lato", sans-serif;
+    font-size: 2vw;
+    color: white;
   }
 }
 

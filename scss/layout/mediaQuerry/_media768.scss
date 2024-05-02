@@ -108,4 +108,79 @@
             }
         }
     }
+
+    .main-eventos{
+        section{
+            padding: 5px;
+            h2{
+                font-size: 2.8rem;
+                text-align: center;
+            }
+            button{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .main-equipo{
+        .juegos{
+            display: flex;
+            flex-direction: column;
+            gap:1.875rem;
+            justify-content: center;
+            align-items: center;
+            padding: 1.875rem 0;
+            .caja-cs{
+                background: url(../assets/img/CSGO.jpg);
+                @include cajasTablet;
+            }
+            .caja-dota{
+                background: url(../assets/img/Dota\ 2.jpeg);
+                @include cajasTablet;
+            }
+            .caja-valorant{
+                background: url(../assets/img/Valorant.jpg);
+                @include cajasTablet;
+            }
+        }
+        .counter{
+            @include tituloTablet;
+            background-color: map-get($colores, color1);
+            .caja-counter{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                background: url(../assets/img/Caja\ counter.jpg);
+                @include juegoTablet;
+                @include jugadoresTablet;
+            }
+        }
+        .dota{
+            @include tituloTablet;
+            background-color: map-get($colores, color2);
+            .caja-d2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                background: url(../assets/img/Caja\ dota.jpg);
+                @include juegoTablet;
+                @include jugadoresTablet;
+            }
+        }
+        .valorant{
+            @include tituloTablet;
+            background-color: map-get($colores, color5);
+            .caja-val{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                background: url(../assets/img/Valorant\ fondo.jpg);
+                @include juegoTablet;
+                @include jugadoresTablet;
+            }
+        }
+    }
 }

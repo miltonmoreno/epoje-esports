@@ -139,4 +139,39 @@
         }
     }
 
+    .main-eventos{
+        h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    .main-equipo{
+        .counter{
+            @include tituloCelular;
+            background-color: map-get($colores, color1);
+            .caja-counter{
+                @include juegoCelular;
+                @include jugadoresCelular;
+            }
+        }
+        .dota{
+            @include tituloCelular;
+            background-color: map-get($colores, color2);
+            .caja-d2{
+                background: url(../assets/img/Caja\ dota.jpg);
+                @include juegoCelular;
+                @include jugadoresCelular;
+            }
+        }
+        .valorant{
+            @include tituloCelular;
+            background-color: map-get($colores, color5);
+            .caja-val{
+                background: url(../assets/img/Valorant\ fondo.jpg);
+                @include juegoCelular;
+                @include jugadoresCelular;
+            }
+        }
+    }
 }
